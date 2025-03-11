@@ -1,7 +1,7 @@
-* {
+/* * {
 	margin: 0;
 	padding: 0;
-}
+} */
 
 body {
 	background-color: rgb(245, 244, 240);
@@ -93,14 +93,7 @@ body {
 }
 
 .reversed-btn:hover {
-	height: 30px;
-	width: 30px;
-	cursor: pointer;
-	border-radius: 50%;
-	font-size: 18px;
-	border: 1.5px solid rgb(30, 20, 10);
-	background-color: rgb(30, 20, 10);
-	color: rgb(245, 244, 240);
+	transform: scale(0.94);
 }
 
 #controls {
@@ -127,4 +120,40 @@ body {
 	-ms-user-select: none;
 	-webkit-user-select: none;
 	-moz-user-select: none;
+}
+
+dialog {
+	outline: none !important;
+	box-shadow: none !important;
+	width: 160px;
+	height: 30px;
+	background-color: rgb(245, 244, 240);
+	border: 2px solid rgb(30, 20, 10);
+}
+
+#password {
+	background-color: rgb(245, 244, 240);
+	border: none;
+	border-bottom: 1px solid rgb(30, 20, 10);
+	outline: none !important;
+	box-shadow: none !important;
+	height: 30px;
+	width: 120px;
+	font-size: 18px;
+}
+
+#password-btn {
+	background-color: rgb(245, 244, 240);
+	color: rgb(30, 20, 10);
+	width: 30px;
+	height: 30px;
+	border: none;
+	border-radius: 50%;
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+#password-btn:hover {
+	background-color: rgb(30, 20, 10);
+	color: rgb(245, 244, 240);
 }
